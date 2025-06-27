@@ -132,7 +132,7 @@ export function NotificationsProvider({ children }: { children: ReactNode }) {
   };
   
   return (
-    <NotificationsContext.Provider 
+      <NotificationsContext.Provider 
       value={{ 
         notifications, 
         unreadCount, 
